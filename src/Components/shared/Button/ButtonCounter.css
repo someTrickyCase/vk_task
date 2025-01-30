@@ -1,0 +1,62 @@
+.counter__variant-primary {
+    --background: #2fb675;
+    --color: #fff;
+}
+
+.counter__variant-secondary {
+    --background: #8366561f;
+    --color: #2e2f33;
+}
+
+.counter {
+    border-radius: 1000rem;
+    background-color: var(--background);
+    color: var(--color);
+}
+
+.counter__size-sm {
+    width: 8px;
+    height: 8px;
+}
+
+.counter__size-md {
+    padding: 0px 7px;
+    min-height: 16px;
+}
+
+.counter__size-lg {
+    padding: 0px 9px;
+    min-height: 26px;
+}
+
+.pulse {
+    position: absolute;
+
+    background-color: var(--background);
+    border-radius: 1000px;
+
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+}
+
+@keyframes pulse-animation-8 {
+    0% {
+        opacity: 0.5;
+        transform: scale(1);
+    }
+    50% {
+        opacity: 0;
+        transform: scale(2);
+    }
+
+    100% {
+        opacity: 0;
+        transform: scale(2);
+    }
+}
+
+.pulse__size-sm {
+    width: 8px;
+    height: 8px;
+    animation-name: pulse-animation-8;
+}

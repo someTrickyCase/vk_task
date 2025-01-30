@@ -1,0 +1,11 @@
+.fullscreen {
+    width: 100wh;
+    min-height: 100vh;
+}
+
+.center-all {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
