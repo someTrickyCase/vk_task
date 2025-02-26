@@ -1,8 +1,8 @@
 import "../App.css";
 import "../../src/index.css";
-import "../../Components/shared/Button/Counter.css";
-import "../../Components/shared/Button/Button.css";
-import "../../Components/ui/Loader/Loader.css";
+import "../Components/shared/Button/ButtonCounter.css";
+import "../Components/shared/Button/Button.css";
+import "../Components/ui/Loader/Loader.css";
 import Button from "../Components/shared/Button/Button.tsx";
 
 import { Meta, StoryObj } from "@storybook/react";
